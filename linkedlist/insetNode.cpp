@@ -5,7 +5,7 @@ struct node{
 int data;
 node *next;
 };
-//print List node
+//print List node for linkedlist
 void printList(node *head){
   while(head != NULL){
     cout<<head->data;
