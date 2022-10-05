@@ -5,14 +5,14 @@ struct node{
 int data;
 node *next;
 };
-//print list node
+//print List node
 void printList(node *head){
   while(head != NULL){
     cout<<head->data;
     head = head->next;
   }
 }
-//adding node in list from front
+//Adding node in List from front
 node *push(node *head , int newData){
   node *newNode = new node();
   newNode->data = newData;
