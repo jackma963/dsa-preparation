@@ -21,7 +21,7 @@ node *push(node *head , int newData){
   return head;
   
 }
-//Driver code for above functions
+//Driver code for above function
 int main() {
   node *head = NULL;
   head = push(head , 12);
