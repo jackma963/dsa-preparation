@@ -12,7 +12,7 @@ void printList(node *head){
     head = head->next;
   }
 }
-//adding node in list from front
+//Adding node in list from front
 node *push(node *head , int newData){
   node *newNode = new node();
   newNode->data = newData;
